@@ -17,12 +17,12 @@ imagePullSecrets: []
 ##
 config:
   network:
-    id: 1
-    name: Ether
-    shortname: Ether
+    id: 106910
+    name: Defichain Classic
+    shortname: cDFI
     currency:
-      name: Ether
-      symbol: ETH
+      name: cDFI
+      symbol: cDFI
       decimals: 18
       # if network uses dual token model like gnosis (in most case it should be set to false)
       dualToken: false
@@ -43,7 +43,7 @@ blockscout:
   ## Image parametes
   ##
   image:
-    repository: blockscout/blockscout
+    repository: ghcr.io/defichain-classic/blockscout
     pullPolicy: IfNotPresent
     tag: "latest"
   ## Init container configuration (used to run DB migrations)
@@ -140,7 +140,7 @@ frontend:
   enabled: true
   ## Image parametes
   image:
-    repository: ghcr.io/blockscout/frontend
+    repository: ghcr.io/defichain-classic/frontend
     tag: latest
     pullPolicy: IfNotPresent
 
@@ -210,7 +210,7 @@ stats:
   ## Image parametes
   ##
   image:
-    repository: ghcr.io/blockscout/stats
+    repository: ghcr.io/defichain-classic/stats
     tag: latest
     pullPolicy: IfNotPresent
 
