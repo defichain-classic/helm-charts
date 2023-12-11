@@ -13,7 +13,7 @@ fullnameOverride: ""
 ##
 imagePullSecrets: []
 ## Blockscout configuration options. See frontend Docs
-## ref: https://github.com/defichain-classic/frontend/blob/main/docs/ENVS.md#blockchain-parameters
+## ref: https://github.com/blockscout/frontend/blob/main/docs/ENVS.md#blockchain-parameters
 ##
 config:
   network:
@@ -45,7 +45,7 @@ blockscout:
   image:
     repository: ghcr.io/defichain-classic/blockscout
     pullPolicy: IfNotPresent
-    tag: "latest"
+    tag: "main"
   ## Init container configuration (used to run DB migrations)
   ##
   init:
@@ -141,7 +141,7 @@ frontend:
   ## Image parametes
   image:
     repository: ghcr.io/defichain-classic/frontend
-    tag: latest
+    tag: main
     pullPolicy: IfNotPresent
 
   replicaCount: 2
@@ -198,7 +198,7 @@ frontend:
       periodSeconds: 10
       timeoutSeconds: 30
   ## Frontend ENV vars
-  ## ref: https://github.com/defichain-classic/frontend/blob/main/docs/ENVS.md
+  ## ref: https://github.com/blockscout/frontend/blob/main/docs/ENVS.md
   ##
   env: []
     # NAME: VALUE
@@ -211,7 +211,7 @@ stats:
   ##
   image:
     repository: ghcr.io/defichain-classic/stats
-    tag: latest
+    tag: main
     pullPolicy: IfNotPresent
 
   replicasCount: 1
@@ -276,7 +276,7 @@ stats:
       periodSeconds: 10
       timeoutSeconds: 60
   ## Stats ENV vars
-  ## ref: https://github.com/defichain-classic/blockscout-rs/tree/main/stats#env
+  ## ref: https://github.com/blockscout/blockscout-rs/tree/main/stats#env
   env: []
     # NAME: VALUE
   envFromSecret: []

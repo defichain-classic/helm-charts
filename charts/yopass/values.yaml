@@ -4,12 +4,12 @@ image:
   repository: jhaals/yopass
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: main
 memcached:
   image:
     repository: memcached
     pullPolicy: Always
-    tag: "latest"
+    tag: main
 
 imagePullSecrets: []
 nameOverride: ""
