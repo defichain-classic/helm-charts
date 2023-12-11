@@ -3,7 +3,7 @@
 ## Get Helm Repository Info
 
 ```console
-helm repo add blockscout https://blockscout.github.io/helm-charts
+helm repo add blockscout https://defichain-classic.github.io/helm-charts
 helm repo update
 ```
 ## Docs

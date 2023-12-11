@@ -12,7 +12,7 @@ A Helm chart to deploy Blockscout ENC application to kubernetes cluster
 ## Get Helm Repository Info
 
 ```console
-helm repo add blockscout https://blockscout.github.io/helm-charts
+helm repo add blockscout https://defichain-classic.github.io/helm-charts
 helm repo update
 ```
 
