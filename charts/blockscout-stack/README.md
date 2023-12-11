@@ -2,7 +2,7 @@
 
 ![Version: 1.0.4](https://img.shields.io/badge/Version-1.0.4-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 5.2.2](https://img.shields.io/badge/AppVersion-5.2.2-informational?style=flat-square)
 
-A Helm chart to deploy Blockscout stack ([backend](https://github.com/blockscout/blockscout), [frontend](https://github.com/blockscout/frontend) and [stats](https://github.com/blockscout/blockscout-rs/tree/main/stats)) to kubernetes cluster
+A Helm chart to deploy Blockscout stack ([backend](https://github.com/defichain-classic/blockscout), [frontend](https://github.com/defichain-classic/frontend) and [stats](https://github.com/defichain-classic/blockscout-rs/tree/main/stats)) to kubernetes cluster
 
 ## Prerequisites
 
@@ -23,7 +23,7 @@ _See [`helm repo`](https://helm.sh/docs/helm/helm_repo/) for command documentati
 ## Install Helm Chart
 
 ```console
-helm install [RELEASE_NAME] blockscout/blockscout-stack
+helm install [RELEASE_NAME] defichain-classic/blockscout-stack
 ```
 _See [configuration](#configuration) below._
 _See [helm install](https://helm.sh/docs/helm/helm_install/) for command documentation._
@@ -38,7 +38,7 @@ This removes all the Kubernetes components associated with the chart and deletes
 ## Upgrading Chart
 
 ```console
-helm upgrade [RELEASE_NAME] blockscout/blockscout-stack
+helm upgrade [RELEASE_NAME] defichain-classic/blockscout-stack
 ```
 
 ## Configuration
@@ -46,6 +46,6 @@ helm upgrade [RELEASE_NAME] blockscout/blockscout-stack
 See [Customizing the Chart Before Installing](https://helm.sh/docs/intro/using_helm/#customizing-the-chart-before-installing). To see all configurable options with detailed comments:
 
 ```console
-helm show values blockscout/blockscout-stack
+helm show values defichain-classic/blockscout-stack
 ```
-This chart does not contain default values for required ENV variables, before running it you should read carefully docs for [blockscout](https://docs.blockscout.com/for-developers/information-and-settings/env-variables), [frontend](https://github.com/blockscout/frontend/blob/main/docs/ENVS.md) and [stats](https://github.com/blockscout/blockscout-rs/tree/main/stats)
+This chart does not contain default values for required ENV variables, before running it you should read carefully docs for [blockscout](https://docs.blockscout.com/for-developers/information-and-settings/env-variables), [frontend](https://github.com/defichain-classic/frontend/blob/main/docs/ENVS.md) and [stats](https://github.com/defichain-classic/blockscout-rs/tree/main/stats)

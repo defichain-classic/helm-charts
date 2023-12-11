@@ -70,4 +70,4 @@
 
 ### Fixes
 
-- Fixed fixing prometheus serviceMonitor always on [issue](https://github.com/blockscout/helm-charts/issues/1)
+- Fixed fixing prometheus serviceMonitor always on [issue](https://github.com/defichain-classic/helm-charts/issues/1)

@@ -21,7 +21,7 @@ _See [`helm repo`](https://helm.sh/docs/helm/helm_repo/) for command documentati
 ## Install Helm Chart
 
 ```console
-helm install [RELEASE_NAME] blockscout/blockscout-ens
+helm install [RELEASE_NAME] defichain-classic/blockscout-ens
 ```
 _See [configuration](#configuration) below._
 _See [helm install](https://helm.sh/docs/helm/helm_install/) for command documentation._
@@ -36,7 +36,7 @@ This removes all the Kubernetes components associated with the chart and deletes
 ## Upgrading Chart
 
 ```console
-helm upgrade [RELEASE_NAME] blockscout/blockscout-ens
+helm upgrade [RELEASE_NAME] defichain-classic/blockscout-ens
 ```
 
 ## Configuration
@@ -44,6 +44,6 @@ helm upgrade [RELEASE_NAME] blockscout/blockscout-ens
 See [Customizing the Chart Before Installing](https://helm.sh/docs/intro/using_helm/#customizing-the-chart-before-installing). To see all configurable options with detailed comments:
 
 ```console
-helm show values blockscout/blockscout-ens
+helm show values defichain-classic/blockscout-ens
 ```
 This chart does not contain default values for required ENV variables.

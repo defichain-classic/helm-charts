@@ -2,7 +2,7 @@ adminRs:
   replicaCount: 1
 
   image:
-    repository: ghcr.io/blockscout/admin-rs
+    repository: ghcr.io/defichain-classic/admin-rs
     pullPolicy: IfNotPresent
     # Overrides the image tag whose default is the chart appVersion.
     tag: ""
@@ -44,7 +44,7 @@ adminTs:
   replicaCount: 1
 
   image:
-    repository: ghcr.io/blockscout/admin-ts
+    repository: ghcr.io/defichain-classic/admin-ts
     pullPolicy: IfNotPresent
     # Overrides the image tag whose default is the chart appVersion.
     tag: ""
@@ -85,7 +85,7 @@ contractsInfo:
   replicaCount: 1
 
   image:
-    repository: ghcr.io/blockscout/contracts-info
+    repository: ghcr.io/defichain-classic/contracts-info
     pullPolicy: IfNotPresent
     # Overrides the image tag whose default is the chart appVersion.
     tag: ""
@@ -130,7 +130,7 @@ contractsInfo:
 tokenInfoExtractor:
   enabled: false
   image:
-    repository: ghcr.io/blockscout/token-info-extractor
+    repository: ghcr.io/defichain-classic/token-info-extractor
     # Overrides the image tag whose default is the chart appVersion.
     tag: ""
   schedule: "0 20 * * *"

@@ -18,7 +18,7 @@ global:
 
 bens:
   image:
-    repository: ghcr.io/blockscout/bens
+    repository: ghcr.io/defichain-classic/bens
     pullPolicy: Always
     tag: main
   replicaCount: 1

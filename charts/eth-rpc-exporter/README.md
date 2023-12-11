@@ -8,7 +8,7 @@ helm repo update
 ```
 ## Docs
 
-- [Eth RPC expoter](https://github.com/blockscout/prometheus-exporters/tree/main/eth-rpc-exporter)
+- [Eth RPC expoter](https://github.com/defichain-classic/prometheus-exporters/tree/main/eth-rpc-exporter)
 
 ## Values
 
@@ -18,7 +18,7 @@ helm repo update
 | config.rpcUrl | string | `"http://localhost:8545"` |  |
 | fullnameOverride | string | `""` |  |
 | image.pullPolicy | string | `"IfNotPresent"` |  |
-| image.repository | string | `"ghcr.io/blockscout/eth-rpc-exporter"` |  |
+| image.repository | string | `"ghcr.io/defichain-classic/eth-rpc-exporter"` |  |
 | image.tag | string | `"main"` |  |
 | imagePullSecrets | list | `[]` |  |
 | nameOverride | string | `""` |  |
