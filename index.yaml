@@ -1,5 +1,17 @@
 apiVersion: v1
 entries:
+  blockscout-admin:
+  - apiVersion: v2
+    appVersion: 1.1.0
+    created: "2023-12-11T05:57:40.059711379Z"
+    description: A Helm chart for Blockscout admin services - admin-rs, admin-ts,
+      contracts-info, token-info-extractor
+    digest: 5bb5a38a535e22a4bacda9e79b4703ca9f7cf2c96a2fdccaff8a90ea32b2aeec
+    name: blockscout-admin
+    type: application
+    urls:
+    - https://github.com/defichain-classic/helm-charts/releases/download/blockscout-admin-1.0.1/blockscout-admin-1.0.1.tgz
+    version: 1.0.1
   blockscout-ens:
   - apiVersion: v2
     appVersion: 0.1.0
@@ -33,6 +45,17 @@ entries:
     urls:
     - https://github.com/defichain-classic/helm-charts/releases/download/eth-rpc-exporter-1.0.0/eth-rpc-exporter-1.0.0.tgz
     version: 1.0.0
+  eth-tx-summary-api:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-12-11T05:57:40.614940825Z"
+    description: A Helm chart for Kubernetes
+    digest: 04d31d3a4d74eca8bc3e0475218b3b46f7ebc6c834438c0457682ff2823ff4c5
+    name: eth-tx-summary-api
+    type: application
+    urls:
+    - https://github.com/defichain-classic/helm-charts/releases/download/eth-tx-summary-api-0.1.0/eth-tx-summary-api-0.1.0.tgz
+    version: 0.1.0
   pganalyzer:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -44,4 +67,4 @@ entries:
     urls:
     - https://github.com/defichain-classic/helm-charts/releases/download/pganalyzer-0.3.1/pganalyzer-0.3.1.tgz
     version: 0.3.1
-generated: "2023-12-11T05:32:41.636153163Z"
+generated: "2023-12-11T05:57:40.75621374Z"
