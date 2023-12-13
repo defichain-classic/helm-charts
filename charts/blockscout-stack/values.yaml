@@ -262,6 +262,7 @@ frontend:
 
 
 
+
 stats:
   enabled: false
   ## Image parametes
